@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 // Importar HttpClientModule
 import {HttpClientModule} from '@angular/common/http';
@@ -21,6 +22,7 @@ import { CancionesService } from './providers/canciones.service';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [
